@@ -1,0 +1,68 @@
+.os-landing-section{
+  height: 100vh;
+  background: var(--dark-color);
+  background: url("../../../assets/images/landingstars.jpg") no-repeat center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+
+  .desc{
+      z-index: 2;
+      padding-inline: 50px;
+    color: var(--light-color);
+    font-family: var(--cairo-regular);
+    h1{
+      font-size: 60px;
+      line-height: 1;
+    }
+    p{
+      margin: 12px 0;
+      color: var(--hover-text-color);
+      font-size: 18px;
+    }
+    .my-name{
+      color: var(--name-color);
+      font-family: var(--cairo-bold);
+    }
+    .my-title{
+      color: var(--name-color);
+      font-family: var(--cairo-bold);
+
+    }
+    button{
+      padding: 8px;
+      background: var(--name-color);
+      color: var(--light-color);
+      border: none;
+      cursor: pointer;
+    }
+  }
+  .my-image{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    img{
+      z-index: 2;
+      cursor: pointer;
+      position: relative;
+      left: -52px;
+      width: 320px;
+      top: -12px;
+    }
+}
+}
+
+.overlay-wrapper{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+
+section{
+  // padding: 50px 20px;
+}
